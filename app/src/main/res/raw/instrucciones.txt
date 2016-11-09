@@ -1,0 +1,20 @@
+ El juego consta de tres niveles de dificultad:
+    - Bajo: Tablero de 8x8 (5 o 10 minas)
+    - Medio: Tablero de 12x12 (15 o 30 minas).
+    - Alto: Tablero de 16x16 (40 o 60 minas).
+
+
+    Una casilla quedará al descubierto con una pulsación corta.
+ Si la casilla esconde una mina, el juego habrá terminado, sino,
+ queda al descubierto el número de minas que esa casilla tiene alrededor,
+ además,se descubrirán todas las casillas colindantes que estén
+ vacías(sin minas, ni números).
+
+    Con una pulsación larga, si la casilla esconde una mina, aparecerá
+ una banadera como señalización de bomba. Si no hay una mina,
+ se muestra la casilla descubierta y se
+ termina el juego.
+
+ Para conseguir la victoria hay dos opciones:
+    - descubrir todas las casillas que no esconden minas.
+    - señalizar con una bandera todas las minas del tablero.

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.crisrodfe.buscaminas.MainActivity">
+
+    <item android:id="@+id/Instrucciones"
+        android:title="Instrucciones"
+        android:orderInCategory="1"
+        app:showAsAction="never" >
+    </item>
+    <item android:id="@+id/NuevoJuego"
+        android:title="Nuevo Juego"
+        android:orderInCategory="2"
+        app:showAsAction="never" >
+    </item>
+    <item android:id="@+id/Configuracion"
+        android:title="Configuración"
+        android:orderInCategory="3">
+    </item>
+    <item android:id="@+id/Puntuaciones"
+        android:title="Puntuaciones"
+        android:orderInCategory="4">
+    </item>
+</menu>
